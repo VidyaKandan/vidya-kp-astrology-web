@@ -1,0 +1,195 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    background-color: #333; /* Matches the original header background */
+    color: #fff; /* Retains the text color */
+    text-align: center;
+    padding: 20px 0; /* Adjust padding for spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow for better visibility */
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px; /* Larger font for emphasis */
+    margin-bottom: 30px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    color: #ffcc00; /* Gold-like color for a mystic vibe */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 30px; /* Generous padding for breathing room */
+    margin: 20px auto;
+    max-width: 800px;
+    border: 2px solid #dcdcdc; /* Light border for structure */
+    border-radius: 10px;
+    background-color: white; /* Subtle warm background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slight shadow for depth */
+    text-align: center;
+    scroll-margin-top: 200px; /* Adjusts the offset for sticky headers */
+}
+
+.section h2 {
+    color: black; /* Sets text color to dark green */
+    font-weight: bold; /* Ensures the text is bold */
+    font-size: 32px; /* Adjust size if needed */
+    margin-bottom: 20px; /* Adds spacing below the heading */
+}
+
+.section p, .section ul {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 10px 0;
+}
+
+.quote p {
+    background-color: #d4f5d4;
+    font-size: 25px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add space above the text */
+    color: darkgreen;
+}
+
+.god-pic {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 70%;
+    margin-bottom: 20px;
+}
+
+/* General reset for FAQ section */
+.faq-content h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.faq-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.faq-content ul li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 8px;
+    line-height: 1.6;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.faq-content ul li:hover {
+    color: #007BFF; /* Add a hover effect to make the questions interactive */
+}
+
+.about-section {
+    background-color: white; /* Subtle warm background */
+    border: 2px solid #dcdcdc; /* Light border for structure */
+    padding: 40px 30px; /* Generous padding for breathing room */
+    border-radius: 15px; /* Rounded edges for a soft look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slight shadow for depth */
+    margin: 20px auto; /* Space around the section */
+    max-width: 800px; /* Center-align and limit width */
+}
+
+.about-section h2 {
+    font-size: 32px; /* Larger heading */
+    font-weight: bold;
+    color: black; /* Dark green for a natural vibe */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 18px; /* Comfortable text size */
+    line-height: 1.8; /* Increase spacing for readability */
+    color: #333; /* Neutral, professional text color */
+    margin: 20px;
+    
+}
+
+.about-text strong {
+    color: #2a4d34; /* Highlighted name in dark green */
+    font-size: 20px; /* Slightly larger for emphasis */
+}
+
+.about-text em {
+    color: #a67c00; /* Gold-like highlight for Guru's name */
+    font-style: italic; /* Differentiates special names */
+}
+
+.about-text p {
+    margin-bottom: 20px; /* Adds spacing between paragraphs */
+    text-align: justify; /* Ensures clean alignment */
+}
+
+.about-text p.centered-text {
+    text-align: center; /* Centers only this paragraph */
+    font-weight: bold; /* Makes the centered text stand out */
+    font-style: italic; /* Subtle emphasis on the closing note */
+    color: #444; /* Slightly muted tone for the closing statement */
+    
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

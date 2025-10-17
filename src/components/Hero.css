@@ -1,0 +1,83 @@
+/* Hero Section Styles */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c3e6c3;
+  position: relative;
+  padding-top: 150px;
+}
+
+.hero-content {
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+.quote-container {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 50px 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.god-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 25px;
+  border: 3px solid #e9ecef;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.quote-text {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #28a745;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 80vh;
+    padding: 20px;
+  }
+  
+  .quote-container {
+    padding: 40px 30px;
+    border-radius: 20px;
+  }
+  
+  .god-pic {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-container {
+    padding: 30px 20px;
+    border-radius: 15px;
+  }
+  
+  .god-pic {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .quote-text {
+    font-size: 1.2rem;
+  }
+}

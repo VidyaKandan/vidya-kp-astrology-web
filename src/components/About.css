@@ -1,0 +1,77 @@
+/* About Section Styles */
+.about-section {
+  background: #c3e6c3;
+  margin-top: 30px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #000000;
+  text-align: justify;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+}
+
+.highlighted-text {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.guru-text {
+  font-weight: 700;
+  color: #000000;
+  font-style: italic;
+}
+
+.centered-text {
+  text-align: center !important;
+  font-weight: 500;
+  font-style: italic;
+  color: #495057;
+  font-size: 1.1rem;
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-text {
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .highlighted-text {
+    font-size: 1.1rem;
+  }
+  
+  .centered-text {
+    font-size: 1.1rem;
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-text {
+    font-size: 0.95rem;
+  }
+  
+  .highlighted-text {
+    font-size: 1rem;
+  }
+  
+  .centered-text {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}

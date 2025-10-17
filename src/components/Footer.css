@@ -1,0 +1,46 @@
+/* Footer Styles */
+.footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #6c757d;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 25px 15px;
+  }
+  
+  .footer-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 10px;
+  }
+  
+  .footer-text {
+    font-size: 0.8rem;
+  }
+}
