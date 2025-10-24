@@ -4,7 +4,7 @@ import './Contact.css';
 const Contact = () => {
   const contactInfo = [
     { label: 'Name', value: 'Vidya Kandaswamy' },
-    { label: 'Phone Number', value: '832 542 6965' },
+    { label: 'Phone Number', value: '(832)-377-5597' },
     { label: 'Email', value: 'vidyakpastrology@gmail.com' },
     { label: 'Booking', value: 'Call/ Text to book an appointment' },
     { label: 'YouTube Channel', value: 'KPAstrologyPredictions' },
