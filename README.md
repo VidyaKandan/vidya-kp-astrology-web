@@ -4,20 +4,20 @@ A modern, dynamic React website for Vidya KP Astrology Predictions, featuring sm
 
 ## Features
 
-- ✨ **Modern React Architecture** - Built with React 18 and modern hooks
-- 🎨 **Beautiful Animations** - Smooth transitions using Framer Motion
-- 📱 **Fully Responsive** - Optimized for all device sizes
-- 🎯 **Interactive Elements** - Hover effects, smooth scrolling, and dynamic navigation
-- 🌟 **Modern UI/UX** - Glassmorphism design with gradient backgrounds
-- ⚡ **Performance Optimized** - Intersection Observer for efficient animations
+- Built with React 18 and modern hooks
+- Smooth transitions using Framer Motion
+- Optimized for all device sizes
+- Hover effects, smooth scrolling, and dynamic navigation
+- Glassmorphism design with gradient backgrounds
+- Intersection Observer for efficient animations
 
 ## Technologies Used
 
-- **React 18** - Modern React with hooks
-- **Framer Motion** - Smooth animations and transitions
-- **React Intersection Observer** - Efficient scroll-based animations
-- **CSS3** - Modern styling with Grid, Flexbox, and animations
-- **HTML5** - Semantic markup
+- React 18 - Modern React with hooks
+- Framer Motion - Smooth animations and transitions
+- React Intersection Observer - Efficient scroll-based animations
+- CSS3 - Modern styling with Grid, Flexbox, and animations
+- HTML5 - Semantic markup
 
 ## Project Structure
 
@@ -62,29 +62,11 @@ public/
 
 ## Key Features Implemented
 
-### 🎨 **Dynamic Animations**
+### **Dynamic Animations**
 - Smooth page load animations
 - Hover effects on all interactive elements
 - Scroll-triggered animations using Intersection Observer
 - Floating animations for icons and images
-
-### 📱 **Responsive Design**
-- Mobile-first approach
-- Flexible grid layouts
-- Adaptive typography
-- Touch-friendly interactions
-
-### 🎯 **Interactive Elements**
-- Smooth scrolling navigation
-- Active section highlighting
-- Expandable FAQ sections
-- Hover effects on cards and buttons
-
-### 🌟 **Modern UI/UX**
-- Glassmorphism design elements
-- Gradient backgrounds
-- Backdrop blur effects
-- Smooth transitions between sections
 
 ## Content Preserved
 
@@ -103,20 +85,11 @@ All original content has been preserved exactly as provided:
 - Safari (latest)
 - Edge (latest)
 
-## Performance Features
-
-- Lazy loading animations
-- Optimized image handling
-- Efficient scroll listeners
-- Minimal re-renders with React hooks
-
 ## Customization
 
 The website is fully customizable through CSS variables and component props. All animations and styling can be easily modified in the respective CSS files.
 
----
-
-**Developed with ❤️ for Vidya KP Astrology Predictions**
+--Developed for Vidya KP Astrology Predictions
 
 
 
